@@ -1,0 +1,32 @@
+# T-Detect: Tail-Aware Statistical Normalization for Robust AI Text Detection
+# Core dependencies for T-Detect implementation
+
+# Deep learning framework
+torch>=1.13.0
+numpy>=1.21.0
+
+# Transformer models and tokenizers
+transformers>=4.28.1
+accelerate>=0.20.0
+
+# Machine learning utilities
+scikit-learn>=1.0.0
+
+# Progress tracking and CLI utilities
+tqdm>=4.64.0
+
+# Optional: For demo and visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Optional: For OpenAI-based baselines (Glimpse detector)
+openai>=1.17.0
+
+# Optional: For paper data processing
+arxiv>=1.4.0
+xlrd==2.0.1
+
+# Optional: For development and testing
+pytest>=7.0.0
+black>=22.0.0
+isort>=5.10.0

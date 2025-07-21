@@ -1,0 +1,14 @@
+{
+    "name": "t_detect",
+    "class_name": "TDetect",
+    "scoring_model_name": "${SCORING_MODEL:-tiiuae/falcon-7b-instruct}",
+    "reference_model_name": "${REFERENCE_MODEL:-tiiuae/falcon-7b}",
+    "device": "${DEVICE:-cuda}",
+    "cache_dir": "${CACHE_DIR:-.cache}",
+    "max_token_observed": 512,
+    "nu": 5,
+    "enable_dynamic_threshold": false,
+    "alpha": 1.0,
+    "beta": 0.1,
+    "ref_entropy": 5.0
+}
