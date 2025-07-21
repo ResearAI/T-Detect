@@ -264,13 +264,6 @@ detector = get_detector('t_detect', device='cpu')
 | RAID | Books | 0.852 | 0.889 | 0.884 | **0.926** |
 | RAID | Poetry | 0.823 | 0.859 | 0.878 | **0.898** |
 
-### Efficiency Comparison
-
-| Method | Speed (samples/sec) | Memory (GB) | Stability |
-|--------|-------------------|-------------|-----------|
-| FastDetectGPT | 12.3 | 4.2 | 1.0x |
-| Binoculars | 7.1 | 6.8 | 0.8x |
-| **T-Detect** | **12.5** | **4.1** | **24x** |
 
 ## 🔧 Troubleshooting
 
