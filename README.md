@@ -17,9 +17,9 @@
 
 | Method | RAID Overall AUROC | HART Level 3 AUROC | Speed Improvement |
 |--------|-------------------|-------------------|------------------|
-| FastDetectGPT | 0.854 | 0.876 | Baseline |
-| Binoculars | 0.873 | 0.883 | 0.6x |
-| **T-Detect (CT)** | **0.876** | **0.881** | **1.019x** |
+| CT(FastDetectGPT) | 0.854 | 0.876 | Baseline |
+| CT(Binoculars) | 0.873 | 0.883 | 0.6x |
+| **CT(T-Detect)** | **0.876** | **0.881** | **1.019x** |
 
 ## 🛠️ Installation
 
@@ -314,9 +314,8 @@ If you use T-Detect in your research, please cite:
 @article{t-detect2025,
     title={T-Detect: Tail-Aware Statistical Normalization for Robust Detection of Adversarial Machine-Generated Text},
     author={[Authors]},
-    journal={ICLR},
     year={2025},
-    url={https://github.com/your-org/t-detect}
+    url={https://github.com/ResearAI/t-detect}
 }
 ```
 
